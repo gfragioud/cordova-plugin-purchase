@@ -751,7 +751,7 @@ static NSString *rootAppleCA = @"MIIEuzCCA6OgAwIBAgIBAjANBgkqhkiG9w0BAQUFADBiMQs
                 [[SKPaymentQueue defaultQueue] finishTransaction:download.transaction];
                 [self transactionFinished:download.transaction];
                 
-                [self copyDownloadToDocuments:download]; // Copy download content to Documnents folder
+                //[self copyDownloadToDocuments:download]; // Copy download content to Documnents folder
                 
                 break;
             }
